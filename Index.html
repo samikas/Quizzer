@@ -3,17 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <title>Quizzer</title>
+
+    <script src="Js/angular.min.js"></script>
+    <script src="Js/angular-route.js"></script>
+
+
     <script src="Js/quiz.js"></script>
     <link rel="stylesheet" href="quiz.css">
 
-    <script src="https://code.angularjs.org/1.3.0-rc.1/angular-route.js"></script>
-
 </head>
-<body onload="clearField()">
+<body onload="clearField()" ng-controller="quizController">
+
 | <a href="#/team"><p class="inline">Teams</p></a> |
 <a href="#/master"><p class="inline">Master</p></a> |
 <a href="#/score"><p class="inline">Scoreboard</p></a> |
+
 <h1>Quizzer</h1>
+<p>{{test}}</p>
 
 <div ng-view></div>
 
