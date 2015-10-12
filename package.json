@@ -1,0 +1,13 @@
+{
+  "name": "Quizzer",
+  "version": "0.0.1",
+  "description": "a quiz",
+  "main": "quiz.js",
+  "author": "Sami Kaskinen",
+  "license": "HAN",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.5",
+    "mongoose": "^4.0.4"
+  }
+}

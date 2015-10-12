@@ -4,7 +4,7 @@ function clearField() {
 }
 function sendTeam(){
     var teamName = document.getElementById('teamInput').value;
-    console.log(teamName);
+    console.log("teamName");
 }
 
 var quizApp = angular.module("quizApp", ["ngRoute"]);
